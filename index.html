@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sequel Glass</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="about-us.html">About Us</a>
+  <a href="supply.html">Supply of Products</a>
+  <a href="installations.html">Installations</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="team-contact.html">Team/Contact Us</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+    
+    
+    <div class="container-fluid">
+        
+        
+        <section class="one">
+            <div class="opening">
+                <img class="logo" src="images/folder/logo.png">
+            </div>
+        </section>    
+    
+        <section class="two">
+            <div class="slideshow-container">
+               
+                <div class="mySlides fade">
+                    <img class="slide" src="images/folder/11.jpg" style="height:100%;"> 
+                    <div class="text"></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="slide" src="images/folder/12.jpg" style="height:100%" style="height:100%;">
+                    <div class="text"></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="slide" src="images/folder/13.jpg" style="height:100%" style="height:100%;">
+                    <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="slide" src="images/folder/14.jpg" style="height:100%" style="height:100%;">
+                    <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="slide" src="images/folder/15.jpg" style="height:100%" style="height:100%;">
+                    <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="slide" src="images/folder/16.jpg" style="height:100%" style="height:100%;">
+                    <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="slide" src="images/folder/17.jpg" style="height:100%" style="height:100%;">
+                    <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <img class="slide" src="images/folder/18.jpg" style="height:100%" style="height:100%;">
+                    <div class="text"></div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </section>
+
+    </div>
+                        
+
+    <footer>
+			<div class="footer">
+				<p class="copywrite">Copyright Prelude Inc dba: Sequel 2018, License # SCC131151352. Designed &amp; Coded by <a href="http://www.redlockdev.com">Red Lock Dev.</a></p>
+			</div>
+		</footer>
+
+
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+                
+
+</body>
+</html> 

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sequel Glass</title>
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    
+    </head>
+    
+    <body>
+	
+	<!-- NAV BAR BEGIN -->
+		<div class="topnav" id="myTopnav">
+		  <a href="index.html">Home</a>
+		  <a href="about-us.html">About Us</a>
+		  <a href="supply.html">Supply of Products</a>
+		  <a href="installations.html">Installations</a>
+		  <a href="portfolio.html" class="active">Portfolio</a>
+		  <a href="team-contact.html">Team/Contact Us</a>
+		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+        <!-- NAV BAR END -->
+        
+    <div class="container-fluid">
+        <div class="thisPage">   
+           
+            
+            <div class="row">
+            
+            <section class="one">
+               
+                <img class="tint" src="rain.jpg"> 
+                <img class="logo" src="images/folder/logo.png">
+
+            </section>
+            
+            
+            
+            <section class="two">
+               <div class="sliderOne">
+                   
+                   
+                   
+                   <img class="mySlides" src="images/portfolio/1.jpg">
+                   <img class="mySlides" src="images/portfolio/2.jpg">
+                   <img class="mySlides" src="images/portfolio/3.jpg">
+                   <img class="mySlides" src="images/portfolio/4.jpg">
+                   <img class="mySlides" src="images/portfolio/5.jpg">
+                   <img class="mySlides" src="images/portfolio/6.jpg">
+                   <img class="mySlides" src="images/portfolio/7.jpg">
+                   <img class="mySlides" src="images/portfolio/8.jpg">
+                   <img class="mySlides" src="images/portfolio/9.jpg">
+                   <img class="mySlides" src="images/portfolio/10.jpg">
+                   <img class="mySlides" src="images/portfolio/11.jpg">
+                   <img class="mySlides" src="images/portfolio/12.jpg">
+                   <img class="mySlides" src="images/portfolio/13.jpg">
+                   <img class="mySlides" src="images/portfolio/14.jpg">
+                   <img class="mySlides" src="images/portfolio/15.jpg">
+                   <img class="mySlides" src="images/portfolio/16.jpg">
+                   <img class="mySlides" src="images/portfolio/17.jpg">
+                   <img class="mySlides" src="images/portfolio/18.jpg">
+                   <img class="mySlides" src="images/portfolio/19.jpg">
+                   <img class="mySlides" src="images/portfolio/20.jpg">
+                   <img class="mySlides" src="images/portfolio/21.jpg">
+                   <img class="mySlides" src="images/portfolio/22.jpg">
+                   <img class="mySlides" src="images/portfolio/23.jpg">
+                   <img class="mySlides" src="images/portfolio/24.jpg">
+                   <img class="mySlides" src="images/portfolio/41.jpg">
+                   <img class="mySlides" src="images/portfolio/59.jpg">
+                   <img class="mySlides" src="images/portfolio/60.jpg">
+                   
+
+                   
+                   
+                   <div>
+                    <button class="button prev" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="button next" onclick="plusDivs(+1)">&#10095;</button>
+                  </div>
+                   
+               </div>
+                
+                   
+            </section>
+                
+            <script>
+                
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length} ;
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex-1].style.display = "block";
+                }
+            
+            </script>
+            
+            
+
+            </div>
+            
+
+            
+            
+		</div>
+    </div>
+        
+        <footer>
+			<div class="footer">
+				<p class="copywrite">Copyright Prelude Inc dba: Sequel 2018, License # SCC131151352. Designed &amp; Coded by <a href="http://www.redlockdev.com">Red Lock Dev.</a></p>
+			</div>
+		</footer>
+        
+        
+        
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script>
+			function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+	
+	
+    </body>
+
+</html>
