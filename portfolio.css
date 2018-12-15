@@ -215,6 +215,8 @@ p a:hover{
 
 
 
+
+
 @media screen and (min-width: 320px) and (max-width:580px) {
     #page {
         background: url("rain.jpg") repeat-x;
@@ -238,6 +240,11 @@ p a:hover{
         height:40%;
         width:auto;
     }
+    .prev, .next{
+        width: 20px;
+        height: 50px;
+        padding:5px;
+    }
 }
 
 @media screen and (max-width:640px) {
@@ -256,6 +263,11 @@ p a:hover{
     .logo{
         height:30%;
         width:auto;
+    }
+    .prev, .next{
+        width: 20px;
+        height: 50px;
+        padding:5px;
     }
 }
 
@@ -279,6 +291,11 @@ p a:hover{
 	.row{
 		font-size:50%;
 	}
+    .prev, .next{
+        width: 20px;
+        height: 50px;
+        padding:5px;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -301,6 +318,11 @@ p a:hover{
 	.row{
 		font-size:40%;
 	}
+    .prev, .next{
+        width: 20px;
+        height: 50px;
+        padding:5px;
+    }
 }
 
 
