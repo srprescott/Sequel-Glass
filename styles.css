@@ -231,7 +231,15 @@ footer{
     text-align: center;
 }
 
+p a{
+    color:white;
+    text-decoration: none;
+}
 
+p a:hover{
+    color:#477B12;
+    text-decoration: overline;
+}
 
 
 

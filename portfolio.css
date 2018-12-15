@@ -54,6 +54,9 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack:center;
     -ms-flex-pack:center;
@@ -87,7 +90,21 @@ body {
 
 
 
-
+.two{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+}
 
 
 .sliderOne{
@@ -109,12 +126,11 @@ body {
 }
 
 .mySlides{
-    width:75%;
+    max-width:1100px;
 }
 
 .prev, .next {
     cursor: pointer;
-    position:fixed;
     top: 50%;
     width: auto;
     padding: 16px;
@@ -127,6 +143,7 @@ body {
     border-radius: 0 3px 3px 0;
     background-color:black;
     z-index: 10;
+    height: 150px;
 }
 
 /* Position the "next button" to the right */
@@ -187,7 +204,14 @@ footer{
     min-height:30px;
 }
 
+p a{
+    color:white;
+}
 
+p a:hover{
+    color:#477B12;
+    text-decoration: overline;
+}
 
 
 

@@ -230,7 +230,14 @@ footer{
     min-height:30px;
 }
 
+p a{
+    color:white;
+}
 
+p a:hover{
+    color:#477B12;
+    text-decoration: overline;
+}
 
 
 

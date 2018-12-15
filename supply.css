@@ -52,6 +52,9 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack:center;
     -ms-flex-pack:center;
@@ -156,7 +159,14 @@ footer{
     min-height:30px;
 }
 
+p a{
+    color:white;
+}
 
+p a:hover{
+    color:#477B12;
+    text-decoration: overline;
+}
 
 
 
