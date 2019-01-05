@@ -74,9 +74,9 @@ body {
 
 .tint{
     position: absolute;
-    -webkit-filter: brightness(40%);
-    filter: brightness(40%);
-    opacity:.9;
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+    opacity:1;
     height:270px;
     width:100%;
     -webkit-box-shadow: 0 0 20px gray;
