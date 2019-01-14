@@ -86,7 +86,7 @@ body {
 }
 
 .logo{
-    z-index:6;
+    z-index:2;
 }
 
 
@@ -114,12 +114,27 @@ body {
 }
 
 .banner{
-    margin: 25px 0;
-    width:85%;
+    width: 85%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-flow: nowrap;
+    flex-flow: nowrap;
+    overflow: hidden;
+    margin: 50px 0;
 }
 
+
+
 .blurb{
-    font-size: 1.4em;
+    font-size: 2.5rem;
     width:85%;
 }
 
@@ -178,7 +193,7 @@ p a:hover{
 		font-size:100%;
 	}
     .logo{
-        height:30%;
+        height:40%;
         width:auto;
     }
 }
@@ -197,7 +212,7 @@ p a:hover{
 		font-size:75%;
 	}
     .logo{
-        height:30%;
+        height:40%;
         width:auto;
     }
 }
@@ -217,11 +232,9 @@ p a:hover{
         width:auto;
     }
     .tint{
-		height:50%;
+		height:40%;
 	}
-	.row{
-		font-size:50%;
-	}
+	
 }
 
 @media screen and (max-width:320px) {
@@ -234,15 +247,13 @@ p a:hover{
     img{
         width:100%;
     }
-	.row{
-		font-size:40%;
-	}
+	
     .logo{
         height:30%;
         width:auto;
     }
     .tint{
-		height:50%;
+		height:40%;
 	}
 }
 
@@ -257,7 +268,7 @@ p a:hover{
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: absolute;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;

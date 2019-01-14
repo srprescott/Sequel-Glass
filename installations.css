@@ -84,7 +84,7 @@ body {
 }
 
 .logo{
-    z-index:6;
+    z-index:2;
 }
 
 
@@ -198,7 +198,7 @@ p a:hover{
         width:auto;
     }
     .tint{
-		height:50%;
+		height:40%;
 	}
 }
 
@@ -220,7 +220,7 @@ p a:hover{
         width:auto;
     }
     .tint{
-		height:50%;
+		height:40%;
 	}
 }
 
@@ -235,7 +235,7 @@ p a:hover{
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: absolute;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;

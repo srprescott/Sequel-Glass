@@ -83,7 +83,7 @@ body {
 }
 
 .logo{
-    z-index:6;
+    z-index:2;
 }
 
 
@@ -103,7 +103,7 @@ body {
 }
 
 .logos{
-    height:100px;
+    height:130px;
     width:auto;
     margin:30px;
 }
@@ -134,7 +134,9 @@ body {
 }
 
 
-
+.introp{
+    font-size: 2.5rem;
+}
 
 
 
@@ -171,6 +173,14 @@ p a:hover{
 
 
 
+
+
+
+
+
+
+
+
 @media screen and (min-width: 320px) and (max-width:580px) {
     #page {
         background: url("rain.jpg") repeat-x;
@@ -185,6 +195,10 @@ p a:hover{
         width: 100%;
     }
     img{
+        width:80%;
+    }
+    .logos{
+        height: auto;
         width:80%;
     }
     .logo{
@@ -203,13 +217,17 @@ p a:hover{
     img{
         width:100%;
     }
-    .logo{
-        height:30%;
-        width:auto;
+    .logos{
+        height: auto;
+        width:80%;
     }
     .east{
         height:auto;
         width:60%;
+    }
+    .logo{
+        height:40%;
+        width:auto;
     }
 }
 
@@ -227,13 +245,17 @@ p a:hover{
         height:auto;
         width:50%;
     }
+    .logos{
+        height: auto;
+        width:80%;
+    }
+    .tint{
+		height:40%;
+	}
     .logo{
         height:30%;
         width:auto;
     }
-    .tint{
-		height:50%;
-	}
 }
 
 @media screen and (max-width:320px) {
@@ -253,13 +275,17 @@ p a:hover{
         height:auto;
         width:40%;
     }
+    .logos{
+        height: auto;
+        width:80%;
+    }
+    .tint{
+		height:40%;
+	} 
     .logo{
         height:30%;
         width:auto;
     }
-    .tint{
-		height:50%;
-	}    
 }
 
 
@@ -275,7 +301,7 @@ p a:hover{
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: absolute;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
