@@ -1,7 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Patua+One|Righteous');
+@font-face {
+  font-family: 'Berton-Regular';
+  src: url('fonts/Berton-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Berton-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Berton-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Berton-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Berton-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Berton-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 
 *{
-    font-family: 'Righteous', serif;
+    font-family: 'Berton-Regular', sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
 body {
@@ -96,8 +106,8 @@ body {
 .welcome{
     text-align: center;
     height:500px;
+    font-size: 2.5rem;
 }
-
 
 
 
@@ -109,7 +119,7 @@ footer{
     background-color: #222222;
     width:100%;
     color:white;
-    font-size: 1em;
+    font-size: 1.1em;
     padding-top:10px;
 }
 
