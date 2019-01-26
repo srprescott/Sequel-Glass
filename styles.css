@@ -14,7 +14,7 @@
 * {
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: 'Berton-Regular', sans-serif;
     font-weight: 600;
     line-height: 1.5;
@@ -22,6 +22,10 @@
 
 body {
     margin:0;
+}
+
+p{
+    margin: 0;
 }
 
 /* BEGIN NAVBAR */
@@ -152,6 +156,7 @@ body {
     max-width:100%;
     position: relative;
     margin: 0;
+    
 }
 
 /* Next & previous buttons */
@@ -215,6 +220,214 @@ body {
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+
+
+
+
+
+/*
+
+<i class="fas fa-tools"></i>
+<i class="fas fa-pencil-ruler"></i>
+<i class="fas fa-comments"></i>
+
+Dark Green - #477B12
+Light Green - #8BC63F
+Black - #000000
+White - #FFFFFF
+
+*/
+
+.three{
+    margin: 5%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+}
+
+.qualities{
+    padding: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.qualities:hover{
+    
+}
+
+.fas{
+    max-height: 100%;
+    color: #477B12;
+}
+
+.head-p{
+    font-size: 1.5rem;
+}
+
+.body-p{
+    font-size: 1.2rem;
+    
+}
+
+
+
+.four{
+    position: relative;
+    padding: 5% 20%;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+
+.five{
+    position: relative;
+    padding: 5%;
+    line-height: 1.5;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.front{
+    -webkit-box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+}
+
+.blurb-p{
+    padding: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.six{
+    position: relative;
+    padding: 5%;
+}
+
+.contact-form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color:	#C5E29F;
+}
+
+.bottom, .top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+input, option, select{
+    margin: 15px;
+    height: 50px;
+    width: 220px;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: 	#ADD778;
+    border:none;
+}
+
+button{
+    min-height: 25px;
+    min-width: 75px;
+    background-color: #8BC63F;
+    color:white;
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
