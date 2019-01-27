@@ -19,11 +19,11 @@
 }
 
 .container-fluid{
-    overflow-x: hidden;
+    
 }
 
 body {
-    
+    overflow-x: hidden;
     margin:0;
 }
 
@@ -39,7 +39,6 @@ p{
 .topnav {
     z-index: 10;
     width: 100vw;
-    position: fixed;
     overflow: hidden;
     background-color: #477B12;
 }
@@ -136,9 +135,15 @@ p{
 .logo{
     width:40%;
     z-index: 5;
+    opacity: .8;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
 }
 
-
+.logo:hover{
+    opacity: .1;
+}
 
 
 
