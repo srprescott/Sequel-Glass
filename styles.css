@@ -37,6 +37,9 @@ p{
 
 /* BEGIN NAVBAR */
 .topnav {
+    z-index: 10;
+    width: 100vw;
+    position: fixed;
     overflow: hidden;
     background-color: #477B12;
 }
