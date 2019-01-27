@@ -12,13 +12,18 @@
 	
 
 * {
-    overflow-x: hidden;
+    
     font-family: 'Berton-Regular', sans-serif;
     font-weight: 600;
     line-height: 1.5;
 }
 
+.container-fluid{
+    overflow-x: hidden;
+}
+
 body {
+    
     margin:0;
 }
 
@@ -318,6 +323,14 @@ White - #FFFFFF
 }
 
 
+
+
+
+
+
+
+
+
 .five{
     position: relative;
     padding: 5%;
@@ -330,16 +343,24 @@ White - #FFFFFF
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.front-box{
+    height: 100%;
+    width: 100%;
+    
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 33%;
 }
 
 .front{
-    width:615px;
-    height:500px;
     -webkit-box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+    height: 100%;
+    width: 100%;
 }
 
 .blurb-p{
@@ -352,6 +373,8 @@ White - #FFFFFF
     align-items: center;
     -webkit-box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 33%;
 }
 
 
@@ -627,9 +650,10 @@ footer{
     .four{
         padding:5%;
     }
-    .front{
-        max-width: 100%;
-        max-height: 100%;
+    .front-box, .blurb-p{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        
     }
     
 }
@@ -653,9 +677,11 @@ footer{
     .four{
         padding:5%;
     }
-    .front{
-        max-width: 100%;
-        max-height: 100%;
+    
+    .front-box, .blurb-p{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        
     }
     
 }
@@ -678,9 +704,12 @@ footer{
     .four{
         padding:5%;
     }
-    .front{
-        max-width: 100%;
-        max-height: 100%;
+    
+    .front-box, .blurb-p{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        
+        
     }
     
 }
@@ -703,9 +732,11 @@ footer{
     .four{
         padding:5%;
     }
-    .front{
-        max-width: 100%;
-        max-height: 100%;
+    
+    .front-box, .blurb-p{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        
     }
     
 }
@@ -728,9 +759,10 @@ footer{
     .four{
         padding:5%;
     }
-    .front{
-        max-width: 100%;
-        max-height: 100%;
+    .front-box, .blurb-p{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        
     }
     
 }
