@@ -13,7 +13,7 @@ if(isset($_POST['submit'])) {
     
     
     
-    $mailTo = "sara@buyyak.com";
+    $mailTo = "jenny@sequelglass.com";
     $headers = "Website Help Request From: ".$mailFrom;
     $txt = "You have received an email from ".$nameFirst." ".$nameLast.".\n\n Email: ".$mailFrom."\n\n Phone: ".$phone."\n\n Company: ".$company."\n\n State: ".$state."\n\n Type: ".$construction."\n\n Requests: ".$subject;
         
