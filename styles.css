@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Berton-Regular';
-  src: url('fonts/Berton-Regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/Berton-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/Berton-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/Berton-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/Berton-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/Berton-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: 'ThomasMag-Medium';
+  src: url('fonts/ThomasMag-Medium.eot'); /* IE9 Compat Modes */
+  src: url('fonts/ThomasMag-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/ThomasMag-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/ThomasMag-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/ThomasMag-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/ThomasMag-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 
@@ -13,7 +13,7 @@
 
 * {
     
-    font-family: 'Berton-Regular', sans-serif;
+    font-family: 'ThomasMag-Medium', sans-serif;
     font-weight: 600;
     line-height: 1.5;
 }
@@ -135,15 +135,9 @@ p{
 .logo{
     width:40%;
     z-index: 5;
-    opacity: .8;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
 }
 
-.logo:hover{
-    opacity: .1;
-}
+
 
 
 
@@ -273,7 +267,7 @@ White - #FFFFFF
 }
 
 .qualities{
-    padding: 5%;
+    padding: 10% 5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
