@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo|Righteous');
+
 @font-face {
-  font-family: 'ThomasMag-Medium';
-  src: url('fonts/ThomasMag-Medium.eot'); /* IE9 Compat Modes */
-  src: url('fonts/ThomasMag-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/ThomasMag-Medium.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/ThomasMag-Medium.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/ThomasMag-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/ThomasMag-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: 'Brycen-Regular';
+  src: url('fonts/Brycen-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Brycen-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Brycen-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Brycen-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Brycen-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Brycen-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 
@@ -13,8 +15,8 @@
 
 * {
     
-    font-family: 'ThomasMag-Medium', sans-serif;
-    font-weight: 600;
+    font-family: 'Aleo', serif;
+    font-weight: 900;
     line-height: 1.5;
 }
 

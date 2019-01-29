@@ -1,0 +1,12 @@
+/* Webfont: Zack-Black */@font-face {
+    font-family: 'ZackBlack';
+    src: url('Zack-Black.eot'); /* IE9 Compat Modes */
+    src: url('Zack-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Zack-Black.woff') format('woff'), /* Modern Browsers */
+         url('Zack-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Zack-Black.svg#Zack-Black') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
