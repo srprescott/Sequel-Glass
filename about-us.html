@@ -60,13 +60,15 @@
             
             
             
-            <!--
+            
             <section class="two">
                <div class="welcome">
+                   <p class="header">Meet Sequel Glass</p>
                    <div class="introp blurb">
-                       <p>SEQUEL is a full-service window sales and installation company with 33 years of experience installing windows and doors in coastal Florida and across the Nation. Brian Ramsey and his wife Amanda took over Doug Ramsey's company in 2007 and have redefined this business as a premier company that provides hassle free window and door packages on high end residencies starting in Jupiter Island and Palm Beach with many elite projects also completed in Wellington, Ft. Lauderdale, Coral Gables, Boca Raton, Manalapan, Sailfish Point, John’s Island, Jacksonville, Ponte Vedra, Sea Island, Southampton, and Louisville.</p> 
+                       <img class="img-one" src="images/about/other.jpg">
+                       <p class="blurb-one">SEQUEL is a full-service window sales and installation company with 33 years of experience installing windows and doors in coastal Florida and across the Nation. Brian Ramsey and his wife Amanda took over Doug Ramsey's company in 2007 and have redefined this business as a premier company that provides hassle free window and door packages on high end residencies starting in Jupiter Island and Palm Beach with many elite projects also completed in Wellington, Ft. Lauderdale, Coral Gables, Boca Raton, Manalapan, Sailfish Point, John’s Island, Jacksonville, Ponte Vedra, Sea Island, Southampton, and Louisville.</p> 
                    </div>
-                   <img class="banner" src="images/folder/banner-wood-windows-and-doors.jpg" alt="Window And Door Installation" title="Installation Projects">
+                   
                    
                    
                    <div class="intro2 blurb">
@@ -75,11 +77,31 @@
                    </div>
                </div>
             </section>
-            -->
             
             <section class="three">
-				
-			</section>
+               <button class="button prev" onclick="plusDivs(-1)">&#10094;</button>
+               
+               <div class="sliderOne" title="">
+
+                   <img class="mySlides fade" src="images/about/1.jpg" alt="">
+                   <img class="mySlides fade" src="images/about/2.jpg" alt="" >
+                   <img class="mySlides fade" src="images/about/3.jpg" alt="" >
+                   <img class="mySlides fade" src="images/about/4.jpg" alt="" >
+                   <img class="mySlides fade" src="images/about/5.jpg" alt="" >
+                   <img class="mySlides fade" src="images/about/6.jpg" alt="" >
+                   <img class="mySlides fade" src="images/about/7.jpg" alt="" >
+                   <img class="mySlides fade" src="images/about/8.jpg" alt="" >
+                   <img class="mySlides fade" src="images/about/9.jpg" alt="" >
+                   <img class="mySlides fade" src="images/about/10.JPG" alt="" >
+  
+                   
+               </div>
+               
+               <button class="button next" onclick="plusDivs(+1)">&#10095;</button>
+            </section>
+            
+            
+            
             
             
             
@@ -116,6 +138,32 @@
 			}
 		}
 	</script>
+	
+	
+	
+	
+	 <script>
+                
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length} ;
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex-1].style.display = "block";
+                }
+            
+            </script>
+	
 	
 	
     </body>
