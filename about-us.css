@@ -70,7 +70,7 @@ body {
 
 .one{
     background: url(images/supply/back.jpg) no-repeat;
-    background-size:contain;
+    background-size:cover;
     height: 60vh;
     display: -webkit-box;
     display: -ms-flexbox;
