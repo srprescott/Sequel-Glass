@@ -208,6 +208,10 @@ body {
     flex-basis: 40%;
 }
 
+.palm-city{
+    margin: 30px 0;
+}
+
 .sup-blurb{
     -ms-flex-preferred-size: 60%;
     flex-basis: 60%;
