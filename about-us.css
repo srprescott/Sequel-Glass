@@ -453,12 +453,7 @@ p a:hover{
     body {
         width: 100%;
     }
-    img{
-        width:100%;
-    }
-	.row{
-		font-size:100%;
-	}
+    
     .one{
         height: 40vh;
     }
@@ -499,14 +494,13 @@ p a:hover{
     body {
         width: 100%;
     }
-    img{
-        width:100%;
+    .logo{
+        max-height: 80%;
+        max-width: 80%;
     }
-	.row{
-		font-size:100%;
-	}
+    
     .one{
-        height: 30vh;
+        height: 40vh;
     }
     .introp{
         -ms-flex-flow: wrap;
@@ -546,14 +540,13 @@ p a:hover{
     body {
         width: 100%;
     }
-    img{
-        width:100%;
+    .logo{
+        max-height: 60%;
+        max-width: 60%;
     }
-	.row{
-		font-size:75%;
-	}
+    
     .one{
-        height: 30vh;
+        height: 40vh;
     }
     .introp{
         -ms-flex-flow: wrap;
@@ -587,17 +580,19 @@ p a:hover{
 }
 
 @media screen and (max-width:360px) {
-    .container-fluid {
+    ..container-fluid {
         width: 100%;
     }
     body {
         width: 100%;
     }
-    img{
-        width:100%;
+    .logo{
+        max-height: 60%;
+        max-width: 60%;
     }
-	.one{
-        height: 30vh;
+    
+    .one{
+        height: 40vh;
     }
     .introp{
         -ms-flex-flow: wrap;
@@ -637,11 +632,16 @@ p a:hover{
     body {
         width: 100%;
     }
-    img{
-        width:100%;
+    .logo{
+        max-height: 50%;
+        max-width: 50%;
     }
+    
+	footer{
+		font-size:3em;
+	}
     .one{
-        height: 30vh;
+        height: 40vh;
     }
     .introp{
         -ms-flex-flow: wrap;
