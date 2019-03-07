@@ -48,7 +48,7 @@ body {
 
 
 
-.one{
+.header{
     background: url(images/supply/back.jpg) no-repeat;
     background-size:cover;
     height: 60vh;
@@ -76,13 +76,557 @@ body {
 
 
 
-.two{
-    
+.intro{
+    margin:4%;
+    text-align: center;
 }
 
 .introp{
     font-size: 2.5rem;
 }
+
+
+
+
+/*         Affects All        */
+
+.heading{
+    text-align: center;
+}
+
+.parag{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.all{
+    
+    padding: 50px;
+}
+
+.raise{
+    margin-bottom: 25px;
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(75,76,81,1);
+    box-shadow: 0px 0px 30px 5px rgba(75,76,81,1);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   background-color: #D5E3EC;
+background-image: url("https://www.transparenttextures.com/patterns/notebook-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ 
+    
+    
+    
+    /*
+    background-color: #abc2d0;
+background-image: url("https://www.transparenttextures.com/patterns/purty-wood.png");
+ This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+    
+    
+    
+   /* 
+    background-color: #abc2d0;
+background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
+ This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+    
+    
+    
+    
+    /*
+    background-color: #abc2d0;
+background-image: url("https://www.transparenttextures.com/patterns/rice-paper-3.png");
+ This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+    
+    
+    
+    
+  /*  
+    background-color: #abc2d0;
+background-image: url("https://www.transparenttextures.com/patterns/squared-metal.png");
+ This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+    
+    
+    
+    
+    
+   /* 
+    background-color: #abc2d0;
+background-image: url("https://www.transparenttextures.com/patterns/subtle-grey.png");
+ This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+    
+    
+    
+    
+    
+ /*   
+    background-color: #abc2d0;
+background-image: url("https://www.transparenttextures.com/patterns/tileable-wood.png");
+ This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+    
+    
+    
+    
+    
+    /* 
+    background-color: #C3F8FE;
+background-image: url("https://www.transparenttextures.com/patterns/dust.png");
+*/
+    
+    
+    
+    
+    
+    
+    
+    /*
+    background-color: #ABC2D0;
+background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+    */
+    
+}
+
+.lower{
+    background: url(images/install/palm2.jpg) no-repeat;
+    background-size:cover;
+}
+
+.container-all{
+    margin: 50px;
+    padding: 50px;
+}
+
+.image-all{
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(75,76,81,1);
+    box-shadow: 0px 0px 15px 0px rgba(75,76,81,1);
+}
+
+
+
+
+
+
+
+
+/*         Area One        */
+
+.one{
+    
+}
+
+.container-one{
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.p-one, .image-one{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*         Area Two        */
+
+.image-con-two{
+    padding: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.image-two{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         Area Three        */
+
+.container-three{
+    padding: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+
+.image-three, .p-three{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 31%;
+    flex-basis: 31%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         Area Four        */
+
+.image-con-four{
+    padding: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.image-four{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*         Area Five        */
+
+.box-con-five{
+    padding: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.image-five, .p-five{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         Area Six        */
+
+.container-six{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.box-con-six{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         Area Seven        */
+
+.container-seven{
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.p-seven, .image-seven{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         Area Eight        */
+.image-con-eight{
+    padding: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.image-eight{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*         Area Nine        */
+
+.image-con-nine{
+    padding: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.image-nine{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 31%;
+    flex-basis: 31%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
