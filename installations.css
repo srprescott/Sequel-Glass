@@ -49,7 +49,7 @@ body {
 
 
 .header{
-    background: url(images/supply/back.jpg) no-repeat;
+    background: url(images/back.jpg) no-repeat;
     background-size:cover;
     height: 60vh;
     display: -webkit-box;
@@ -108,97 +108,8 @@ body {
     margin-bottom: 25px;
     -webkit-box-shadow: 0px 0px 30px 5px rgba(75,76,81,1);
     box-shadow: 0px 0px 30px 5px rgba(75,76,81,1);
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
    background-color: #D5E3EC;
-background-image: url("https://www.transparenttextures.com/patterns/notebook-dark.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ 
-    
-    
-    
-    /*
-    background-color: #abc2d0;
-background-image: url("https://www.transparenttextures.com/patterns/purty-wood.png");
- This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    
-    
-    
-    
-   /* 
-    background-color: #abc2d0;
-background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
- This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    
-    
-    
-    
-    
-    /*
-    background-color: #abc2d0;
-background-image: url("https://www.transparenttextures.com/patterns/rice-paper-3.png");
- This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    
-    
-    
-    
-    
-  /*  
-    background-color: #abc2d0;
-background-image: url("https://www.transparenttextures.com/patterns/squared-metal.png");
- This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    
-    
-    
-    
-    
-    
-   /* 
-    background-color: #abc2d0;
-background-image: url("https://www.transparenttextures.com/patterns/subtle-grey.png");
- This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    
-    
-    
-    
-    
-    
- /*   
-    background-color: #abc2d0;
-background-image: url("https://www.transparenttextures.com/patterns/tileable-wood.png");
- This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-    
-    
-    
-    
-    
-    
-    /* 
-    background-color: #C3F8FE;
-background-image: url("https://www.transparenttextures.com/patterns/dust.png");
-*/
-    
-    
-    
-    
-    
-    
-    
-    /*
-    background-color: #ABC2D0;
-background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
-    */
-    
+    background-image: url(images/install/notebook-dark.png);
 }
 
 .lower{
@@ -212,8 +123,6 @@ background-image: url("https://www.transparenttextures.com/patterns/diamond-upho
 }
 
 .image-all{
-    max-height: 100%;
-    max-width: 100%;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(75,76,81,1);
     box-shadow: 0px 0px 15px 0px rgba(75,76,81,1);
 }
@@ -227,12 +136,7 @@ background-image: url("https://www.transparenttextures.com/patterns/diamond-upho
 
 /*         Area One        */
 
-.one{
-    
-}
-
 .container-one{
-    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -775,27 +679,36 @@ p a:hover{
         width: 100%;
     }
     
-    .one{
+    .header{
         height: 40vh;
     }
-    .logo-box{
+    .container-all{
+        padding:0;
+        margin: 0;
+    }
+    .container-one, .container-three, .box-con-five, .box-con-six, .container-six, .container-seven{
         -ms-flex-flow: wrap;
-        flex-flow: wrap; 
-        -webkit-box-pack: center; 
-        -ms-flex-pack: center; 
-        justify-content: center;
-        padding: 25px;
+        flex-flow: wrap;
+    }
+    .p-one, .image-one, .p-three, .image-three, .p-five, .image-five, .p-six, .image-six, .box-con-six, .p-seven, .image-seven{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
-    .logos, .sup-blurb{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        max-width: 100%;
-        max-height: 100%;
+    .image-con-two, .image-con-four, .container-seven, .image-con-eight, .image-con-nine{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        
     }
-    .logos{
-        margin: 0 0 50px 0;
+    .image-one, .image-two, .image-three, .image-four, .image-five, .image-six, .image-seven, .image-eight, .image-nine{
+        margin: 20px 0;
+    }
+    .image-all{
+        height: auto;
+        width: 100%;
     }
     
 }
@@ -813,27 +726,38 @@ p a:hover{
         max-width: 80%;
     }
     
-    .one{
+    .header{
         height: 40vh;
     }
-    .logo-box{
+    .container-all{
+        padding:0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .container-one, .container-three, .box-con-five, .box-con-six, .container-six, .container-seven{
         -ms-flex-flow: wrap;
-        flex-flow: wrap; 
-        -webkit-box-pack: center; 
-        -ms-flex-pack: center; 
-        justify-content: center;
-        padding: 25px;
+        flex-flow: wrap;
+    }
+    .p-one, .image-one, .p-three, .image-three, .p-five, .image-five, .p-six, .image-six, .box-con-six, .p-seven, .image-seven{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
-    .logos, .sup-blurb{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        max-width: 100%;
-        max-height: auto;
+    .image-con-two, .image-con-four, .container-seven, .image-con-eight, .image-con-nine{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        
     }
-    .logos{
-        margin: 0 0 50px 0;
+    .image-one, .image-two, .image-three, .image-four, .image-five, .image-six, .image-seven, .image-eight, .image-nine{
+        margin: 20px 0;
+    }
+    .image-all{
+        height: auto;
+        width: 100%;
     }
     
 }
@@ -850,28 +774,41 @@ p a:hover{
         max-width: 60%;
     }
     
-    .one{
+    .header{
         height: 40vh;
     }
-    .logo-box{
+    .container-all{
+        padding:0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .container-one, .container-three, .box-con-five, .box-con-six, .container-six, .container-seven{
         -ms-flex-flow: wrap;
         flex-flow: wrap;
-        -webkit-box-pack: center; 
-        -ms-flex-pack: center; 
-        justify-content: center;
-        padding: 25px;
+    }
+    .p-one, .image-one, .p-three, .image-three, .p-five, .image-five, .p-six, .image-six, .box-con-six, .p-seven, .image-seven{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
-    .logos, .sup-blurb{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        max-width: 100%;
-        max-height: 100%;
+    .image-con-two, .image-con-four, .container-seven, .image-con-eight, .image-con-nine{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        
     }
-    .logos{
-        margin: 0 0 50px 0;
+    .image-one, .image-two, .image-three, .image-four, .image-five, .image-six, .image-seven, .image-eight, .image-nine{
+        margin: 20px 0;
     }
+    .image-all{
+        height: auto;
+        width: 100%;
+    }
+
+    
     
 }
 
@@ -887,27 +824,38 @@ p a:hover{
         max-width: 60%;
     }
     
-    .one{
+    .header{
         height: 40vh;
     }
-    .logo-box{
+    .container-all{
+        padding:0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .container-one, .container-three, .box-con-five, .box-con-six, .container-six, .container-seven{
         -ms-flex-flow: wrap;
-        flex-flow: wrap; 
-        -webkit-box-pack: center; 
-        -ms-flex-pack: center; 
-        justify-content: center;
-        padding: 25px;
+        flex-flow: wrap;
+    }
+    .p-one, .image-one, .p-three, .image-three, .p-five, .image-five, .p-six, .image-six, .box-con-six, .p-seven, .image-seven{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
-    .logos, .sup-blurb{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        max-width: 100%;
-        max-height: 100%;
+    .image-con-two, .image-con-four, .container-seven, .image-con-eight, .image-con-nine{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        
     }
-    .logos{
-        margin: 0 0 50px 0;
+    .image-two, .image-three, .image-four, .image-five, .image-six, .image-seven, .image-eight, .image-nine{
+        margin: 20px 0;
+    }
+    .image-all{
+        height: auto;
+        width: 100%;
     }
     
 }
@@ -927,27 +875,38 @@ p a:hover{
 	footer{
 		font-size:3em;
 	}
-    .one{
+    .header{
         height: 40vh;
     }
-    .logo-box{
+    .container-all{
+        padding:0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .container-one, .container-three, .box-con-five, .box-con-six, .container-six, .container-seven{
         -ms-flex-flow: wrap;
-        flex-flow: wrap; 
-        -webkit-box-pack: center; 
-        -ms-flex-pack: center; 
-        justify-content: center;
-        padding: 25px;
+        flex-flow: wrap;
+    }
+    .p-one, .image-one, .p-three, .image-three, .p-five, .image-five, .p-six, .image-six, .box-con-six, .p-seven, .image-seven{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
-    .logos, .sup-blurb{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        max-width: 100%;
-        max-height: 100%;
+    .image-con-two, .image-con-four, .container-seven, .image-con-eight, .image-con-nine{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        
     }
-    .logos{
-        margin: 0 0 50px 0;
+    .image-two, .image-three, .image-four, .image-five, .image-six, .image-seven, .image-eight, .image-nine{
+        margin: 20px 0;
+    }
+    .image-all{
+        height: 100%;
+        width: 100%;
     }
     
 }

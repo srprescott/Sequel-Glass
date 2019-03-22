@@ -251,7 +251,7 @@ White - #FFFFFF
 */
 
 .three{
-    background: url(images/portfolio/opa.jpg);
+    background: url(images/home/opa.jpg);
     background-size:cover;
     margin: 5%;
     position: relative;
@@ -396,18 +396,43 @@ White - #FFFFFF
 
 
 
+.suppliers{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
-.logos{
+
+.short{
     border-radius: 5px;
-    height:90px;
-    width:auto;
     margin: 30px;
     padding:10px;
+    height:90px;
+    width:auto;
+}
+
+.long{
+    border-radius: 5px;
+    margin: 30px;
+    padding:10px;
+    width: 350px;
 }
 
 .six{
     padding: 10% 5%;
-    background: url(images/portfolio/no-opa3.jpg);
+    background: url(images/home/no-opa3.jpg);
     background-size:cover;
     text-align: center;
 }
@@ -431,7 +456,7 @@ White - #FFFFFF
 
 
 .seven{
-    background: url(images/portfolio/no-opa6.jpg);
+    background: url(images/home/no-opa6.jpg);
     background-size:cover;
 }
 

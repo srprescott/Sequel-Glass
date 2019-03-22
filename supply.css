@@ -49,7 +49,7 @@ body {
 
 
 .one{
-    background: url(images/supply/back.jpg) no-repeat;
+    background: url(images/back.jpg) no-repeat;
     background-size:cover;
     height: 60vh;
     display: -webkit-box;
