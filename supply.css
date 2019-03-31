@@ -359,10 +359,6 @@ p a:hover{
     body {
         width: 100%;
     }
-    
-    .one{
-        height: 40vh;
-    }
     .logo-box{
         -ms-flex-flow: wrap;
         flex-flow: wrap; 

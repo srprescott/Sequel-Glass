@@ -87,10 +87,7 @@ body {
     align-items: center;
 }
 
-.logo{
-    max-height: 30%;
-    max-width: 30%;
-}
+
 
 
 
@@ -453,10 +450,6 @@ p a:hover{
     body {
         width: 100%;
     }
-    
-    .one{
-        height: 40vh;
-    }
     .introp{
         -ms-flex-flow: wrap;
         flex-flow: wrap;
@@ -469,6 +462,7 @@ p a:hover{
     .three{
         margin: 30px 0;
         padding: 30px 0;
+        width: 100%;
     }
     .prev, .next{
         opacity: .6;
@@ -484,7 +478,9 @@ p a:hover{
     .blurb{
         width: 100%;
     }
-    
+    .sliderOne, .mySlides{
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width:959px) {
@@ -498,7 +494,6 @@ p a:hover{
         max-height: 80%;
         max-width: 80%;
     }
-    
     .one{
         height: 40vh;
     }
@@ -514,6 +509,7 @@ p a:hover{
     .three{
         margin: 30px 0;
         padding: 30px 0;
+        width: 100%;
     }
     .prev, .next{
         opacity: .6;
@@ -529,7 +525,9 @@ p a:hover{
     .blurb{
         width: 100%;
     }
-    
+    .sliderOne, .mySlides{
+        max-width: 100%;
+    }
     
 }
 
@@ -560,6 +558,7 @@ p a:hover{
     .three{
         margin: 30px 0;
         padding: 30px 0;
+        width: 100%;
     }
     .prev, .next{
         opacity: .6;
@@ -575,7 +574,9 @@ p a:hover{
     .blurb{
         width: 100%;
     }
-    
+    .sliderOne, .mySlides{
+        max-width: 100%;
+    }
     
 }
 
@@ -606,6 +607,7 @@ p a:hover{
     .three{
         margin: 30px 0;
         padding: 30px 0;
+        width: 100%;
     }
     .prev, .next{
         opacity: .6;
@@ -621,7 +623,9 @@ p a:hover{
     .blurb{
         width: 100%;
     }
-    
+    .sliderOne, .mySlides{
+        max-width: 100%;
+    }
     
 }
 
@@ -655,6 +659,7 @@ p a:hover{
     .three{
         margin: 30px 0;
         padding: 30px 0;
+        width: 100%;
     }
     .prev, .next{
         opacity: .6;
@@ -670,7 +675,9 @@ p a:hover{
     .blurb{
         width: 100%;
     }
-    
+    .sliderOne, .mySlides{
+        max-width: 100%;
+    }
 }
 
 

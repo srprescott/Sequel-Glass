@@ -146,6 +146,9 @@ body {
     flex-direction: row;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .p-one, .image-one{
@@ -221,6 +224,9 @@ body {
     flex-direction: row;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 
@@ -355,6 +361,9 @@ body {
     flex-direction: column;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-flex-preferred-size: 45%;
     flex-basis: 45%;
 }
@@ -677,10 +686,6 @@ p a:hover{
     }
     body {
         width: 100%;
-    }
-    
-    .header{
-        height: 40vh;
     }
     .container-all{
         padding:0;

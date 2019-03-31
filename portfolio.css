@@ -320,12 +320,10 @@ p a:hover{
         width: 100%;
     }
     
-    .one{
-        height: 40vh;
-    }
+    
     .map{
-    height:100%;
-    width:100%;
+        max-height:100%;
+        max-width:100%;
     }
     .fade{
         height:100%;
@@ -360,12 +358,12 @@ p a:hover{
         max-width: 80%;
     }
     
-    .one{
+    .header{
         height: 40vh;
     }
     .map{
-    height:100%;
-    width:100%;
+        max-height:100%;
+        max-width:100%;
     }
     .fade{
         height:100%;
@@ -399,12 +397,12 @@ p a:hover{
         max-width: 60%;
     }
     
-    .one{
+    .header{
         height: 40vh;
     }
     .map{
-    height:100%;
-    width:100%;
+    max-height:100%;
+    max-width:100%;
     }
     .fade{
         height:100%;
@@ -438,12 +436,12 @@ p a:hover{
         max-width: 60%;
     }
     
-    .one{
+    .header{
         height: 40vh;
     }
     .map{
-        height:100%;
-        width:100%;
+        max-height:100%;
+        max-width:100%;
     }
     .fade{
         height:100%;
@@ -477,12 +475,12 @@ p a:hover{
 	footer{
 		font-size:3em;
 	}
-    .one{
+    .header{
         height: 40vh;
     }
     .map{
-        height:100%;
-        width:100%;
+        max-height:100%;
+        max-width:100%;
     }
     .fade{
         height:100%;
